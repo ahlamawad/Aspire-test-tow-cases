@@ -14,5 +14,8 @@ describe('randoum test', () => {
     let RandomIndex = Math.floor(Math.random()*websites.length)
 
     cy.visit(websites[RandomIndex])
-  })
+
+
+
+})
 })
